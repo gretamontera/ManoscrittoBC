@@ -1,0 +1,1173 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="ita" type="main">
+					Diario
+				</title>
+				<!-- alt ovvero titolo tradotto -->
+				<author ref="#BC">
+					Bruno Cimoli
+				</author>
+				<respStmt xml:id="TRASP">
+					<resp xml:id="RESP_TRASP">
+						Trasposizione di
+					</resp>
+					<name xml:id="BC">
+						Bruno Cimoli
+					</name>
+					<!-- responsabilità per il lavoro del testo in digitale -->
+				</respStmt>
+				<respStmt xml:id="COD">
+					<resp xml:id="RESP_COD">
+						Codifica di
+					</resp>
+					<name xml:id="GM">
+						Greta Montera
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp xml:id="RESP_PROG">
+						Progetto coordinato da
+					</resp>
+					<name xml:id="AMDG">
+						Angelo Mario Del Grosso
+					</name>
+				</respStmt> 
+				<respStmt>
+					<resp>
+						e
+					</resp>
+					<name xml:id="MR">
+						Marina Riccucci
+					</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					Università di Pisa,
+				</publisher>
+				<pubPlace>
+					Pisa, PI,
+				</pubPlace>
+				<address>
+					<postCode>
+						56127,
+					</postCode>
+					<name>
+						Italia.
+					</name>
+				</address>
+			</publicationStmt>
+			<sourceDesc>
+				<!-- descrizione della risorsa (il foglio) -->
+				<msDesc>
+					<!-- descrizione del manoscritto -->
+					<msIdentifier>
+						<!-- identificatore manoscritto -->
+						<placeName>
+							<orgName key="ANPI" type="voluntary">
+								ANPI
+								<settlement type="town">
+									Massa
+								</settlement>
+							</orgName>
+							<!-- contiene il nome di una sede o posto etc -->
+							<region key="IT" type="state">
+								Italia
+							</region>
+						</placeName>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<!-- il contenuto del manoscritto -->
+							<title cert="low" level="u">
+								Diario
+							</title>
+							<!-- attributo main ovvero il titolo originale, desc ovvero indica la natura descrittiva del titolo, alt ovvero titolo tradotto -->
+							<author>
+								Bruno Cimoli
+							</author>
+							<!-- dichiarazione di responsabilità dell'autore del lavoro -->
+							<textLang mainLang="it">
+								Testo scritto in italiano
+							</textLang>
+						</msItem>
+					</msContents>
+					<!-- fine descrizione delle generalità del documento -->
+					<physDesc>
+						<!-- descrizione fisica del manoscritto -->
+						<objectDesc form="unici due fogli ritrovati del diario">
+							<supportDesc>
+								<!-- descrizione del materiale fisico -->
+								<support>
+									Si tratta di fogli di
+									<material>
+										carta
+									</material>
+								</support>
+								<extent>
+								    Il manoscritto è composto da 2 pagine dell'intero diario di cui l'estensione precisa è sconosciuta.
+								</extent>
+								<condition>
+										Le due pagine di diario manoscritte si presentano molto sbiadite, ingiallite e stropicciate.
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<!-- descrizione dell'impaginazione -->
+								<layout columns="1, 2" writtenLines="31, 34">
+										La prima pagina di diario è formata da 35 righe, la seconda, invece, da 37.
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+								Il testo è scritto da una sola mano, quella dell'autore Bruno Cimoli.
+								Scritto in corsivo, non sempre di facile comprensione poichè si tratta di pagine di diario.
+								La maggior parte delle parole sono illeggibili perchè sbiadite dal tempo e inizialmente scritte a matita. Si notano alcue data poste al centro delle pagine, e la numerazione delle pagine stesse in alto a sinistra.
+								Inoltre, Bruno prima di trascrivere al computer le due pagine di diario, aggiunge una nota:"Questa è una copiatura del "Diario" che volevo poter compilare durante la prigionia
+								e la deportazione. Non sono riuscito a farne più di tanto perchè non avevo né i fogli, né le matite e confesso neanche la voglia, con tutto quello che ho visto giorno per giorno.
+								Il foglio originale è molto sgualcito e nelle piegature si sono perdute alcune parole! Comunque trascrivo quello che riesco a vedere!
+						</handDesc>
+					</physDesc>
+					<history>
+						<!-- storia del manoscritto -->
+						<origin notBefore="1943" evidence="external">
+								Le pagine del manoscritto sono state scritte da
+								<persName>
+									Bruno Cimoli
+								</persName>
+								. Sono le uniche due pagine rimaste del diario della deportazione di Bruno Cimoli, conservate a
+								<placeName>
+									Massa nella sede centrale dell'
+									<orgName>
+										ANPI
+									</orgName>
+								</placeName>
+						</origin>
+						<acquisition>
+							<name type="place">
+								Massa
+							</name>
+							<!-- informazioni sul processo e l'acquisizione del documento da parte dell'istituzione -->
+							<p>
+								Il documento è stato acquisito dall'
+								<orgName>
+									ANPI
+								</orgName>
+							</p>
+						</acquisition>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<!-- descrizione dettagliato di aspetti non bibliografici del testo, come lingua, condizioni -->
+			<langUsage>
+				<language ident="it">
+					Italiano
+				</language>
+			</langUsage>
+			<textDesc>
+				<channel mode="w"/>
+				<!-- mezzo tramite cui è trasmesso, w written -->
+				<constitution type="single"/>
+				<!-- descrive la completezza di un testo -->
+				<derivation type="original"/>
+				<!-- descrive il contesto in cui va inteso il testo -->
+				<domain type="domestic, public"/>
+				<!-- di sua proprietà -->
+				<factuality type="fact"/>
+				<!-- se il testo è più o meno inventato -->
+				<purpose type="inform" degree="medium"/>
+				<!-- scopo del testo e livello -->
+			</textDesc>
+			<settingDesc>
+				<!-- contesto in cui si trovano le informazioni principali -->
+				<setting>
+						<name>
+							Scannerizzazione del manoscritto situata a
+							<placeName>
+								Massa
+							</placeName>
+							,
+							<country>
+								Italia
+							</country>
+							.
+						</name>
+						<time>
+							<date notBefore="1945"/>
+						</time>
+				</setting>
+			</settingDesc>
+		</profileDesc>
+    </teiHeader>
+	<facsimile>
+		<surface xml:id="prima_foto">
+			<graphic url="primaPagina.jpeg" width="1700px" height="2200px"/>
+			<zone ulx="170" uly="94" lrx="1540" lry="2111"/>
+			<zone ulx="269" uly="100" lrx="321" lry="190" xml:id="N.sxPagina1"/>
+			<zone ulx="319" uly="238" lrx="1039" lry="352" xml:id="PPriga1"/>
+			<zone ulx="319" uly="238" lrx="1039" lry="352" xml:id="PPriga2"/>
+			<zone ulx="260" uly="338" lrx="1464" lry="408" xml:id="PPriga3"/>
+			<zone ulx="269" uly="375" lrx="1443" lry="450" xml:id="PPriga4"/>
+			<zone ulx="278" uly="422" lrx="1372" lry="498" xml:id="PPriga5"/>
+			<zone ulx="185" uly="454" lrx="1438" lry="550" xml:id="PPriga6"/>
+			<zone ulx="272" uly="513" lrx="759" lry="594" xml:id="PPriga7"/>
+			<zone ulx="196" uly="561" lrx="1444" lry="652" xml:id="PPriga8"/>
+			<zone ulx="183" uly="641" lrx="1334" lry="760" xml:id="PPriga9"/>
+			<zone ulx="193" uly="701" lrx="1398" lry="801" xml:id="PPriga10"/>
+			<zone ulx="208" uly="775" lrx="1083" lry="856" xml:id="PPriga11"/>
+			<zone ulx="299" uly="839" lrx="665" lry="898" xml:id="PPriga12"/>
+			<zone ulx="213" uly="870" lrx="1383" lry="945" xml:id="PPriga13"/>
+			<zone ulx="272" uly="951" lrx="1395" lry="991" xml:id="PPriga14"/>
+			<zone ulx="283" uly="981" lrx="1389" lry="1056" xml:id="PPriga15"/>
+			<zone ulx="235" uly="1060" lrx="1458" lry="1153" xml:id="PPriga16"/>
+			<zone ulx="281" uly="1167" lrx="1453" lry="1250" xml:id="PPriga17"/>
+			<zone ulx="251" uly="1240" lrx="1375" lry="1294" xml:id="PPriga18"/>
+			<zone ulx="252" uly="1288" lrx="1432" lry="1338" xml:id="PPriga19"/>
+			<zone ulx="255" uly="1340" lrx="1521" lry="1404" xml:id="PPriga20"/>
+			<zone ulx="264" uly="1390" lrx="1468" lry="1480" xml:id="PPriga21"/>
+			<zone ulx="277" uly="1491" lrx="844" lry="1527" xml:id="PPriga22"/>
+			<zone ulx="193" uly="1549" lrx="1448" lry="1625" xml:id="PPriga23"/>
+			<zone ulx="254" uly="1598" lrx="1457" lry="1686" xml:id="PPriga24"/>
+			<zone ulx="247" uly="1681" lrx="1481" lry="1734" xml:id="PPriga25"/>
+			<zone ulx="244" uly="1764" lrx="1494" lry="1836" xml:id="PPriga26"/>
+			<zone ulx="308" uly="1816" lrx="1042" lry="1860" xml:id="PPriga27"/>
+			<zone ulx="298" uly="1840" lrx="1326" lry="1920" xml:id="PPriga28"/>
+			<zone ulx="254" uly="1866" lrx="1484" lry="1996" xml:id="PPriga29"/>
+			<zone ulx="240" uly="1924" lrx="1466" lry="2032" xml:id="PPriga30"/>
+			<zone ulx="245" uly="1983" lrx="823" lry="2046" xml:id="PPriga31"/>
+			<zone ulx="346" uly="2037" lrx="668" lry="2080" xml:id="PPriga32"/>
+			<zone ulx="251" uly="1937" lrx="1250" lry="2012" xml:id="PPriga33"/>
+			<zone ulx="239" uly="1968" lrx="854" lry="2048" xml:id="PPriga34"/>
+			<zone ulx="341" uly="2027" lrx="702" lry="2095" xml:id="PPriga35"/>
+		</surface>
+		<surface n="2">
+			<graphic url="secondaPagina.jpeg" width="1700px" height="2200px"/>
+			<zone ulx="164" uly="95" lrx="1539" lry="2110"/>
+			<zone ulx="855" uly="129" lrx="1499" lry="144" xml:id="SPriga1"/>
+			<zone ulx="617" uly="184" lrx="1463" lry="198" xml:id="SPriga2"/>
+			<zone ulx="538" uly="228" lrx="1423" lry="266" xml:id="SPriga3"/>
+			<zone ulx="368" uly="303" lrx="1442" lry="322" xml:id="SPriga4"/>
+			<zone ulx="350" uly="362" lrx="1388" lry="383" xml:id="SPriga5"/>
+			<zone ulx="348" uly="380" lrx="1383" lry="424" xml:id="SPriga6"/>
+			<zone ulx="337" uly="455" lrx="771" lry="475" xml:id="SPriga7"/>
+			<zone ulx="230" uly="505" lrx="1436" lry="556" xml:id="SPriga8"/>
+			<zone ulx="316" uly="568" lrx="1439" lry="606" xml:id="SPriga9"/>
+			<zone ulx="844" uly="626" lrx="1465" lry="641" xml:id="SPriga10"/>
+			<zone ulx="865" uly="638" lrx="1448" lry="689" xml:id="SPriga11"/>
+			<zone ulx="333" uly="675" lrx="1343" lry="738" xml:id="SPriga12"/>
+			<zone ulx="338" uly="719" lrx="1398" lry="778" xml:id="SPriga13"/>
+			<zone ulx="418" uly="721" lrx="1400" lry="782" xml:id="SPriga14"/>
+			<zone ulx="325" uly="791" lrx="586" lry="863" xml:id="SPriga15"/>
+			<zone ulx="261" uly="890" lrx="1449" lry="925" xml:id="SPriga16"/>
+			<zone ulx="293" uly="929" lrx="1447" lry="981" xml:id="SPriga17"/>
+			<zone ulx="374" uly="969" lrx="668" lry="988" xml:id="SPriga18"/>
+			<zone ulx="277" uly="1014" lrx="1322" lry="1056" xml:id="SPriga19"/>
+			<zone ulx="402" uly="1047" lrx="829" lry="1081" xml:id="SPriga20"/>
+			<zone ulx="435" uly="1102" lrx="861" lry="1156" xml:id="SPriga21"/>
+			<zone ulx="243" uly="1154" lrx="1271" lry="1206" xml:id="SPriga22"/>
+			<zone ulx="311" uly="1215" lrx="1286" lry="1256" xml:id="SPriga23"/>
+			<zone ulx="297" uly="1256" lrx="1127" lry="1298" xml:id="SPriga24"/>
+			<zone ulx="241" uly="1296" lrx="436" lry="1329" xml:id="SPriga25"/>
+			<zone ulx="265" uly="1331" lrx="1328" lry="1396" xml:id="SPriga26"/>
+			<zone ulx="265" uly="1390" lrx="1369" lry="1474" xml:id="SPriga27"/>
+			<zone ulx="261" uly="1436" lrx="1373" lry="1554" xml:id="SPriga28"/>
+			<zone ulx="272" uly="1478" lrx="687" lry="1553" xml:id="SPriga29"/>
+			<zone ulx="472" uly="1561" lrx="1033" lry="1627" xml:id="SPriga30"/>
+			<zone ulx="306" uly="1637" lrx="1425" lry="1735" xml:id="SPriga31"/>
+			<zone ulx="265" uly="1688" lrx="1428" lry="1786" xml:id="SPriga32"/>
+			<zone ulx="281" uly="1736" lrx="1482" lry="1874" xml:id="SPriga34"/>
+			<zone ulx="303" uly="1798" lrx="1022" lry="1902" xml:id="SPriga35"/>
+			<zone ulx="315" uly="1853" lrx="904" lry="1949" xml:id="SPriga36"/>
+		</surface>
+	</facsimile>
+	<!-- codifica prima pagina -->
+	<text xml:lang="it" xml:id="Paginediario" subtype="manuscript">
+		<body>
+		   <div type="pagina" n="1">
+			<pb n="1" facs="#pagina1"/>
+				
+			
+		    <div type="day" n="1">
+				
+				<lb facs="#PPriga1" n="1"/>
+				<opener> 
+                    <dateline>
+                                <date when="24 settembre 1944">Domenica 24 settembre 1944</date>
+				    </dateline>
+                </opener>
+				<lb facs="#PPriga2" n="2"/>
+                Ore <time when="10:00"> 10:00 </time> 
+                partenza da <placeName ref="#C"> Carrara</placeName>, lasciando col cuore angosciato i miei che mi
+				<lb facs="#PPriga3" n="3"/>
+				accompagnano piangendo. Che sarà di noi? Quale la nostra sorte? ...
+				<lb facs="#PPriga4" n="4"/>
+				Si cammina alla volta di<placeName ref="#S">Sarzana</placeName>. Giornata di sole ma triste.
+				<lb facs="#PPriga5" n="5"/>
+                <corr resp="#BC"> Ore </corr>
+                <time when="11:20"> 11:30 </time>, sosta <placeName ref="#L"> Luni </placeName> per fare colazione, indi interrottamente fino alla Caserma
+				<lb facs="#PPriga6" n="6"/>
+                <orgName> Savoia </orgName> dove si arriva alle<time when="14:00">14:00</time>
+				<lb facs="#PPriga7" n="7"/>
+                <corr resp="#BC"> Ore </corr>
+                <time when="17:00"> 17:00 </time>
+                <choice resp="#BC">
+                <orig> D </orig>
+                        <reg> d</reg>
+                </choice>istribuzione del <term ref="#RA"> rancio </term> a base di burro, marmellata e un pane
+				<lb facs="#PPriga8" n="8"/>
+				a mattone <damage degree="high" hand="unknown"/>
+				<lb facs="#PPriga9" n="9"/>
+                <corr resp="#BC"> Ore </corr>
+                <time when="17:00"> 17:00 </time>
+                <term ref="#FUC">
+                <choice resp="#BC">
+                            <orig>F </orig>
+                            <reg>f</reg>
+                        </choice>ucilazione </term>di un disgraziato giovane che ha tentato la fuga.
+				<lb facs="#PPriga10" n="10"/>
+                <corr resp="#BC"> Ore </corr>
+                <time when="18:00"> 18 </time>. Con la triste prospettiva di finire tutti così, ci ritiriamo nelle
+				<lb facs="#PPriga11" n="11"/>
+				camere e ci addormentiamo sul duro pavimento
+			 </div> 
+			 <div type="day" n="2">
+				<lb facs="#PPriga12" n="12"/>
+				<opener> 
+                    <dateline>
+                                <date when="25 settembre 1943"> 25 settembre 1943</date>
+				    </dateline>
+                </opener>
+				<lb facs="#PPriga13" n="13"/>
+				ore <time when="6:00">
+                <orig> 6 </orig>
+                <reg> 6:00 </reg>
+                </time> preparativi e partenza ore
+				<time when="7:00">
+                <orig> 7 </orig>
+                <reg>7:00</reg>
+                </time>. Ho veduto la <persName ref="TinaSorella"> Tina </persName>
+				<corr> (sorella) </corr> la <persName ref="CarlaCugina"> Carla </persName>
+                <corr>cugina</corr>
+				<lb facs="#PPriga14" n="14"/>
+				e la zia <persName ref="IdaZia"> Ida </persName> che mi hanno trovato piangendo, ho tentato di
+				<lb facs="#PPriga15" n="15"/>
+				incoraggiarle ma avevo anch'io il nodo alla gola. Dove si va?
+				<lb facs="#PPriga16" n="16"/>
+				Chi dice ad <placeName ref="#A">Aulla</placeName>, chi a <placeName ref="#V"> Villafranca
+					    </placeName>ad ogni modo, senza mai
+				<lb facs="#PPriga17" n="17"/>
+				sostare, oltrepassiamo <placeName ref="#SSM">
+                <corr>
+                            <orig>S. Stefano</orig>
+                            <reg>Santo Stefano Magra</reg>
+                        </corr>
+                </placeName>,<placeName> Aulla </placeName> e sostiamo a <placeName ref="#T"> Terrarossa</placeName> alle
+				<time when="14:00"> 14</time> 
+				<lb facs="#PPriga18" n="18"/>
+				e alle<time when="15:00"> 15</time> si riprende il cammino con la speranza di sostare
+				<lb facs="#PPriga19" n="19"/>
+				 a<placeName> Villafranca</placeName>
+                <damage degree="high" hand="unknown"/>
+				<lb facs="#PPriga20" n="20"/>
+				<unclear reason="faded">
+                <supplied reason="illegible"> Ho avuto la fortuna di vedere
+				<persName ref="RenzoFratello"> Renzo</persName> (mio fratello) diretto alla volta di<placeName ref="#SP">
+				 La Spezia</placeName>
+                        </supplied>
+                    </unclear> 
+				<lb facs="#PPriga21" n="21"/>
+				<gap reason="illegible"/>. Al contrario di tutti
+				<lb facs="#PPriga22" n="22"/>
+				<unclear reason="faded">
+                <supplied reason="illegible" source="#DAT"> i nostri sospetti abbiamo oltrepassato</supplied>
+                        <placeName> Villafranca</placeName>
+                    </unclear>,<placeName ref="#F"> Filattiera</placeName>,<placeName ref="#SC"> Scorcetoli</placeName>e 
+				<lb facs="#PPriga23" n="23"/>
+                <unclear reason="faded">
+                        <supplied reason="illegible"> finalmente, dopo 41 km di cammino</supplied>
+				giungiamo, affranti a<placeName ref="#PO"> Pontremoli</placeName>
+                    </unclear> 
+				<lb facs="#PPriga24" n="24"/>
+				<unclear reason="faded">
+                        <supplied reason="illegible"> dove, con nostra grande sorpresa ci</supplied>
+				 imbarcano sulle<orgName ref="#SITE"> Site</orgName> e ci avviamo</unclear>
+			</div>
+			<div type="day" n="3">
+				<lb facs="#PPriga25" n="25"/>
+				<opener> 
+                    <dateline>
+                                <date when="26 settembre 1943"> 26 settembre 1943</date>
+				    </dateline>
+                </opener>
+                <lb facs="#PPriga26" n="26"/>
+				<unclear reason="faded">
+                        <supplied reason="illegible" source="#DAT"> campo di concentramento dove ci</supplied>
+                </unclear> 
+				<lb facs="#PPriga27" n="27"/>
+				<unclear reason="faded">
+                <supplied reason="illegible" source="#DAT"> dove ci viene assegnata una baracca per poter dormire</supplied>
+                <placeName ref="#FOS"> (Fossoli)</placeName>
+                <placeName ref="#M"> Modena</placeName>
+                </unclear> 
+				<lb facs="#PPriga28" n="28"/>
+				<unclear reason="faded">
+                <supplied reason="illegible" source="#DAT"> Ore<time when="8:00"> 8:00</time>
+				 distribuzione di caffellatte, compera allo spaccio di pane bianco</supplied>
+				</unclear>
+                <damage degree="high" hand="unknown"/> 
+				<lb facs="#PPriga29" n="29"/>
+				<unclear reason="faded">
+                <supplied reason="illegible" source="#DAT">Ore<time when="12:00"> 12:00</time> danno a tutti una pagnotta</supplied> bianca appettitosa.</unclear> 
+				<lb facs="#PPriga30" n="30"/>
+                <unclear reason="faded">
+                <gap reason="illegible"/> separata
+                </unclear> 
+				<lb facs="#PPriga31" n="31"/>
+				<gap reason="illegible"/>
+				<persName ref="Borghetti">
+                        <surname> Borghetti</surname>
+                    </persName> che lo zio<persName ref="UmbertoZio"> Umberto
+				</persName> mi vuol vedere e chiede che 
+				<lb facs="#PPriga32" n="32"/>
+				 notizie ci sono e non è mai soddisfatto
+				<lb facs="#PPriga33" n="33"/>
+                <gap reason="illegible"/>
+				Il tempo passa veloce e oggi è già l'ora del <measure> rancio </measure>  che è il solito 
+				<lb facs="#PPriga34" n="34"/>
+				con in più con un pezzo di formaggio
+			</div>
+			<div type="day" n="4" part="I">
+			<lb facs="#PPriga35" n="35"/>
+				<opener> 
+                    <dateline>
+		                 <date when="27 settembre 1943"> Mercoledì 27</date>
+				    </dateline>
+                </opener>
+            </div>
+        </div>
+			<!-- codifica pagina 2 -->
+		    <div type="pagina" n="2">
+			<pb n="2" facs="#pagina2"/>
+			<div type="day" n="4" part="F">
+				<lb facs="#SPriga1" n="36"/>
+                <gap reason="illegible"/>
+                <unclear reason="background_noise"/>
+                <damage hand="unknown" degree="high">
+				Ore<time when="8:00"> 8</time> comincia la partenza dei primi scaglioni destinati, quasi tutti per la<country>
+				 Germania</country>
+                    </damage>
+				<lb facs="#SPriga2" n="37"/>
+                <unclear reason="faded">
+                <supplied reason="illegible" source="#DAT">Io e
+				<persName ref="#P"> Pasquale</persName> siamo andati allo spaccio a fare compere</supplied>
+                </unclear>
+				 un pacchetto di sigarette, <measure commodity="grape" quantity="1" unit="kg"> 1 kg d'uva</measure>
+				<gap reason="illegibe"/>
+                <measure commodity="biscuits" quantity="2"> 2 biscotti</measure>, <measure commodity="milk"> latte </measure> poi ,<measure commodity="razor blades" quantity="some"> lamette</measure>,<measure quantity="2" commodity="vermout"> 2 vermout</measure>
+				<lb facs="#SPriga3" n="38"/>
+                <unclear reason="faded"/> Totale 287 lire. è cara la roba ma si<unclear reason="eccentric_ductus">
+				trova</unclear>
+				<lb facs="#SPriga4" n="39"/>
+				Ore<time when="14:00"> 14</time> io e<persName ref="#PasqualeAmico"> Pasquale</persName> fa il gioco delle tre carte e, gioca mezz'ora e guadagna circa
+				<lb facs="#SPriga5" n="40"/>
+				400 lire. Rimaniamo al bar a festeggiare la vincita: altro pane
+				<lb facs="#SPriga6" n="41"/>
+				<unclear reason="faded"> altra frutta e formaggio.. Passa così anche il mercoledì.</unclear>
+			</div>
+			
+			<div type="day" n="5">
+			    <lb facs="#SPriga7" n="42"/>
+			    <opener> 
+                    <dateline>
+                                <date when="28 settembre 1943"> Giovedì 28 settembre</date>
+				    </dateline>
+                </opener>
+			    <lb facs="#SPriga8" n="43"/>
+				<unclear reason="faded"><!-- mettere estensione di unclear -->
+                <persName ref="Borghetti">
+                            <surname> Borghetti</surname>
+                        </persName> e mi porta un paio di zoccoloni</unclear>
+				<lb facs="#SPriga9" n="44"/>
+				<unclear reason="faded"> <gap reason="lost"/> la legna pa <gap reason="lost"/>per cui</unclear>
+				<lb facs="#SPriga10" n="45"/>
+                <unclear reason="faded">
+                <gap reason="lost"/> 2 pagnotte e un boccale di moscato</unclear>
+				<lb facs="#SPriga11" n="46"/>
+                <unclear reason="faded">
+                <gap reason="lost"/> monotono. Portati quelli visitati..</unclear>
+				<lb facs="#SPriga12" n="47"/>
+                <unclear reason="faded">
+                <supplied reason="illegible" source="#DAT"> dove</supplied> treno che deve andare a
+				<placeName ref="#LI"> Linz</placeName>
+                </unclear>
+				<lb facs="#SPriga13" n="48"/>
+                <unclear reason="faded">
+                <gap reason="illegible"/> a<placeName ref="KL"> Klagenfurt</placeName>
+				 noi non abbiamo ancora</unclear>
+				<lb facs="#SPriga14" n="49"/>
+                <unclear reason="faded">
+                <gap reason="illegible"/> passato la visita.</unclear>
+			</div>
+			<div type="day" n="6">
+			    <lb facs="#SPriga15" n="50"/>
+			        <opener> 
+                        <dateline>
+                                <date when="29 settembre 1943">
+                                    <hi rend="underquote"> Venerdì 29 settembre</hi>
+                                </date>
+				        </dateline>
+                    </opener>
+				<lb facs="#SPriga16" n="51"/>
+                <unclear reason="faded">
+                <supplied reason="illegible" source="#DAT"> Ore<time when="10:00"> 10</time>
+				partono i primi uomini, abbracci,</supplied> saluti e auguri</unclear>
+				<lb facs="#SPriga17" n="52"/>
+				<unclear reason="faded">
+                <supplied reason="illegible" source="#DAT"> Ecc. Lo zio annunzia che sarebbe</supplied>tornato a casa con
+				<persName ref="#Bordoni">
+                            <forename> Bordoni</forename>
+                        </persName>
+				</unclear>
+				<lb facs="#SPriga18" n="53"/>
+                <unclear reason="faded">
+                <supplied reason="illegible" source="#DAT"> Ore<time when="12:00"> 12</time> rancio, ore
+				<time when="15:00"> 15</time> a passare</supplied> la visita e destinazione ignota.</unclear>
+				<lb facs="#SPriga19" n="54"/>
+				<unclear reason="faded">
+                <supplied reason="illegible" source="#DAT"> 3 ore di gioco e a cena.</supplied>
+                </unclear>
+			</div>
+			
+			<div type="day" n="7">
+			    <lb facs="#SPriga20" n="55"/>
+			        <opener> 
+                        <dateline>
+                                <date when="30 settembre 1943"> Sabato 30</date>
+				        </dateline>
+                    </opener>
+			    <lb facs="#SPriga21" n="56"/>
+                <time when="08:00"> 8</time> ci consegnano una tuta e un paio di scarpe da tennis
+			    <lb facs="#SPriga22" n="57"/>
+				Sappiamo che si parte l'indomani e allora spese allo spaccio
+		    	<lb facs="#SPriga23" n="58"/>
+                <measure comodity="bread" quantity="10"> 10 pani</measure>, <measure quantity="3" commodity="packeges of fruit">3 pacchetti di razioni di frutta ecc.</measure>
+			    <lb facs="#SPriga24" n="59"/>
+                <time when="12:00"> 12</time> rancio.
+			    <lb facs="#SPriga25" n="60"/>
+				Pomeriggio preparativi,<persName ref="#P">Pasquale</persName> compra una tuta per <measure type="currency"> 300<choice>
+                <abbr type="suspension">L.</abbr>
+                            <expan>lire</expan>
+                        </choice>
+                    </measure>
+			    <lb facs="#SPriga26" n="61"/>
+				Alle<time when="18:00"> 18</time> ci consegnano un pacco da viaggio contenente <measure type="bread"> 4 pani</measure>
+			    <lb facs="#SPriga27" n="62"/>
+				<measure unit="hg" commodity="cheese"> 4 ettidi formaggio</measure>, <measure commodity="jam"> 3 di marmellata</measure>,<measure quantity="1" commodity="cutlet"> una cotoletta </measure> e <measure part="I" commodity="cigarettes">1 </measure>
+			    <lb facs="#SPriga28" n="63"/> 
+                <measure part="F"> pacchetto di sigarette</measure>
+			</div>
+			
+			<div type="day" n="8">
+				<lb facs="#SPriga29" n="64"/>
+				    <opener> 
+                        <dateline>
+                                <date when="1 ottobre 1943"> Domenica 1 ottobre</date>
+				        </dateline>
+                    </opener>
+				<lb facs="#SPriga30" n="65"/>
+				Alle<time when="10:00"> 10</time> prendiamo le Site, si arriva alle<time when="12:00">
+				12</time> al<geogName ref="#PO"> PO</geogName>. Traghettiamo con
+				<lb facs="#SPriga31" n="66"/>
+				una barca pochi per volta. Alle<time when="14:00"> 14</time> due Site ci attendono sulla
+				<lb facs="#SPriga32" n="67"/>
+				strada per conducia a<placeName>
+                        <settlement> Peschiera</settlement>
+                    </placeName>. Passiamo
+				<placeName>
+                        <settlement> Mantova</settlement>
+                    </placeName> e giungiamo
+				<lb facs="#SPriga33" n="68"/>
+				a destinazione alle<time when="15:00"> 15</time>. Siamo albergati nella fortezza di
+				<lb facs="#SPriga34" n="69"/>
+                <persName> Carlo Alberto</persName> sul<geogName> Lago di<settlement> Garda</settlement>
+                    </geogName>
+				<lb facs="#SPriga35" n="70"/>
+				Zuppa di patate, molto<supplied reason="illegible" source="#DAT"> lunga, una pagnotta e un po' di formaggio.</supplied>
+				<lb facs="#SPriga36" n="71"/>
+                <supplied reason="illgible" source="#DAT"> Ad ogni modo abbiamo una scorta di pane piuttosto buona.</supplied>
+		  </div>
+		 </div>
+		</body>
+	</text>
+	<standOff>
+		<!-- lista dei termini di riferimento nel testo -->
+		<listPlace type="termRef" rend="bulleted">
+			<place xml:id="C" n="2" facs="pagina 1">
+				<placeName>
+					Carrara
+				</placeName>,
+				<location>
+					<region key="Toscana">
+						Toscana
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						44°05'N 10°06'E
+					</geo>.
+				</location>
+				<population when="2022" type="interpolatedCensus" quantity="60309" href="https://it.wikipedia.org/wiki/Carrara"/>
+					<note> <placeName n="query"> Carrara </placeName> <note xml:id="internal"> (Carara in dialetto carrarese) è un comune italiano di 60 309 abitanti della provincia di Massa-Carrara in Toscana, situato tra il litorale tirrenico e le Alpi Apuane. È centro di rilevanza internazionale per l'estrazione, la lavorazione e il commercio del marmo, noto con il nome di marmo di Carrara.L'emblema della città è una ruota con il motto Fortitudo mea in rota (in latino: "La mia forza è nella ruota"). Questo stemma parlante fa riferimento al nome stesso della città, nonché alle ruote dei carri che trasportavano i marmi, principale fonte di ricchezza per Carrara. Un'interpretazione alternativa sostiene che sia invece un simbolo legato al dio celtico Taranis, in genere rappresentato con il fulmine in una mano e una ruota a sei o otto raggi nell'altra; Taranis, assimilabile a Giove, era il nume tutelare delle tempeste da cui i cavatori apuani dovevano proteggersi e il cui nome potrebbe aver generato il toponimo di Torano, oggi frazione di Carrara.</note> </note>
+			</place>
+			<place xml:id="S" n="4" facs="pagina 1">
+				<placeName>
+					Sarzana
+				</placeName>,
+				<location>
+					<region key="Liguria">
+						Liguria
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						44°06'48.99″N 9°57'35.85″E
+					</geo>.
+				</location>
+				<population when="2023" type="interpolatedCensus" quantity="22457" href="https://it.wikipedia.org/wiki/Sarzana"/>
+				<note>
+				    <placeName n="query"> Sarzana</placeName>
+                    <note xml:id="internal"> è un comune italiano di 21 591 abitanti. Viene Considerata l'erede storica dell'antica città romana di Lunae. Sarzana è un importante centro della val di Magra. Grazie alla sua posizione, è dalla sua fondazione crocevia di importanti vie di comunicazione tra la Liguria, la Toscana e l'Emilia-Romagna. Sin dall'antichità fu centro agricolo e commerciale di grande rilievo e, già in età medievale, importante centro religioso e giuridico, con sede vescovile e Tribunale. </note>
+				</note>
+			</place>
+			<place xml:id="L" n="5" facs="pagina 1">
+				<placeName>
+					Luni
+				</placeName>,
+				<location>
+					<region key="Liguria">
+						Liguria
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						44°05'05.43″N 10°02' 31.3″E
+					</geo>.
+				</location>
+				<population when="2023" type="interpolatedCensus" quantity="8129" href="https://it.wikipedia.org/wiki/Luni"/>
+				<note>
+				    <placeName n="query"> Luni </placeName> <note xml:id="internal"> è un comune italiano sparso di 8 129 abitanti[1] della provincia della Spezia in Liguria. La sede comunale è situata nella frazione di Casano. Fino al 20 aprile 2017 il comune era denominato Ortonovo (Ortoneuvo in ligure, Ortnò nel dialetto della Lunigiana, è il comune ligure più orientale. </note> 
+				</note>
+			</place>
+			<place xml:id="AU" n="16, 17" facs="pagina 1">
+				<placeName>
+					Aulla
+				</placeName>,
+				<location>
+					<region key="Toscana">
+						Toscana
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						44°13'N 9°58'E
+					</geo>.
+				</location>
+				<population when="2022" type="interpolatedCensus" quantity="10685" href="https://it.wikipedia.org/wiki/Aulla"/>
+				<note>
+				    <placeName n="query"> Aulla </placeName> <note xml:id="internal">si trova in Toscana, nella zona conosciuta come Lunigiana, a pochissimi chilometri dal confine con la Liguria. Il paese si trova in una posizione strategica alla confluenza del torrente Aulella nel fiume Magra, dove la vallata si restringe notevolmente, chiusa tra le colline circostanti. Per questi motivi, d'inverno è quasi sempre presente la nebbia, mentre d'estate il caldo umido diviene spesso insopportabile. La città di Aulla è da sempre stata un naturale crocevia tra le vie di comunicazione che conducono ai passi della Cisa e del Cerreto, dall'antichità - il paese si trova infatti sul percorso della Via Francigena</note>
+				</note>
+			</place>
+			<place xml:id="V" n="19,22" facs="pagina 1">
+				<placeName>
+					Villafranca
+				</placeName>,
+				<location>
+					<region key="Toscana">
+						Toscana
+					</region>,
+					<country key="IT">
+						Italia
+					</country>.
+					<geo>
+						44°17'44″N 9°57'00″E
+					</geo>.
+				</location>
+				<population when="2022" type="interpolatedCensus" quantity="4585" href="https://it.wikipedia.org/wiki/Villafranca_in_Lunigiana"/>
+				<note>
+				    <placeName n="query"> Villafranca </placeName> <note xml:id="internal">in Lunigiana (Vilafranca nel dialetto della Lunigiana) è un comune italiano di 4 585 abitanti in Toscana. Si trova sulla Via Francigena; nel paese si conservano vestigia dell'antico borgo medioevale. </note>
+				</note>
+			</place>
+			<place xml:id="SSM" n="17" facs="pagina 1">
+				<placeName>
+					Santo Stefano di Magra
+				</placeName>,
+				<location>
+					<region key="Liguria">
+						Liguria
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						44°09'44.93″N 9°54'54.48″E
+					</geo>.
+				</location>
+				<population when="2022" type="interpolatedCensus" quantity="9787" href="https://it.wikipedia.org/wiki/Santo_Stefano_di_Magra"/>
+				<note>
+				    <placeName n="query"> Santo Stefano di Magra </placeName> <note xml:id="internal">è situato nella porzione di territorio spezzino in cui il fiume Vara confluisce nel fiume Magra. Il territorio tuttavia si espande anche sulle colline circostanti, fino alla frazione di Ponzano SuperioreLa particolare posizione lo rende centro nevralgico di comunicazione con la Lunigiana toscana e punto di contatto, nonché naturale diramazione delle vie di comunicazione che si dirigono verso la provincia di Parma.
+				        Il comune fa parte del Parco naturale regionale di Montemarcello-Magra-Vara. </note>
+				</note>
+			</place>
+			<place xml:id="T" n="17" facs="pagina 1">
+				<placeName>
+					Terrarossa
+				</placeName>,
+				<location>
+					<region key="Liguria">
+						Liguria
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						44°14'05″N 9°57'38″E
+					</geo>.
+				</location>
+				<population when="2009" type="interpolatedCensus" quantity="1594" href="https://it.wikipedia.org/wiki/Terrarossa"/>
+				<note>
+				    <placeName n="query"> Terrarossa  </placeName> <note xml:id="internal">si trova nella media Lunigiana, sulla sponda sinistra del fiume Magra, presso la confluenza con i torrenti Civiglia e Taverone. È situato ad 8 km a sud-ovest di Licciana Nardi e 2,5 km a nord di Aulla. </note>
+				</note>
+			</place>
+			<place xml:id="SP" n="20" facs="pagina 1">
+				<placeName>
+					La Spezia
+				</placeName>,
+				<location>
+					<region key="Liguria">
+						Liguria
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						44°06'28.96″N 9°49'43.97″E
+					</geo>.
+				</location>
+				<population when="2023" type="interpolatedCensus" quantity="99138" href="https://it.wikipedia.org/wiki/La_Spezia"/>
+				<note>
+                    <placeName n="query"> La Spezia </placeName> <note xml:id="internal">è un comune italiano di 92 148 abitanti, capoluogo della provincia omonima in Liguria. È il secondo comune della regione per popolazione dopo Genova.La città si trova all'estremo levante della regione Liguria, a pochi chilometri dal confine con la Toscana, al centro di un profondo golfo naturale al quale dà il nome. Il golfo, che è conosciuto anche con l'appellativo di Golfo dei Poeti per la sua bellezza, è cinto da una continua catena di alture le cui cime più elevate, il monte Verrugoli (749 m s.l.m.), il monte Parodi (673 m s.l.m.), il monte Santa Croce (543 m s.l.m.) e il monte Viseggi (347 m s.l.m.), situate sul versante occidentale del centro abitato, sovrastano la città della Spezia. </note> </note>
+			</place>
+			<place xml:id="F" n="22" facs="pagina 1">
+				<placeName>
+					Filattiera
+				</placeName>,
+				<location>
+					<region key="Toscana">
+						Toscana
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						44°20'N 9°56'E
+					</geo>.
+				</location>
+				<population when="2023" type="interpolatedCensus" quantity="2178" href="https://it.wikipedia.org/wiki/Filattiera"/>
+				<note>
+				<placeName n="query"> Filattiera</placeName> <note xml:id="internal">(Faltéra in dialetto locale) è un comune italiano di 2 178 abitanti in Toscana.Il comune fa parte del Parco Nazionale dell'Appennino Tosco-Emiliano
+				    Il territorio del comune di Filattiera si estende per 48,97 km² in una zona montagnosa e collinare, sulla riva sinistra del Magra, nell'alta Lunigiana. Oltre che dal Magra, il comune è bagnato anche dal torrente Caprio.
+				    Originatasi come centro signorile, Filattiera ha raggiunto l'attuale assetto territoriale nel 1865, quando le furono aggiunte le frazioni di Rocca Sigillina, Cavallana, Lusignana e Gigliana, staccate dal comune di Bagnone. </note>
+				</note>
+			</place>
+			<place xml:id="SC" n="22" facs="pagina 1">
+				<placeName>
+					Scorcetoli
+				</placeName>,
+				<location>
+					<region key="Toscana">
+						Toscana
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo cert="low">
+						44°20'39.48″N 9°54'42.88″E
+					</geo>.
+				</location>
+				<population href="https://www.italiamappata.it/toscana/ms/3565-scorcetoli/"/>
+				<note>
+				    <placeName n="query"> Scorcetorli</placeName>
+                    <note xml:id="internal">si trova sulla SS62 della Cisa. Il paese venne menzionato per la prima volta nel 1063, in un documento che assegnava l’antica chiesa di San Bartolomeo, oggi scomparsa, al monastero di San Venerio o del Tino a Portovenere. </note>
+				</note>
+			</place>
+			<place xml:id="P" n="23" facs="pagina 1">
+				<placeName>
+					Pontremoli
+				</placeName>,
+				<location>
+					<region key="Toscana">
+						Toscana
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						44°22'34″N 9°52'47.64″E
+					</geo>.
+				</location>
+				<population when="2022" type="interpolatedCensus" quantity="6856" href="https://it.wikipedia.org/wiki/Pontremoli"/>
+				<note>
+				    <placeName n="query"> Pontremoli</placeName> <note xml:id="internal">è il comune più settentrionale della Regione Toscana, adagiato nell'alta vallata del fiume Magra, alla confluenza con il torrente Verde e la Valle del Verde, all'estremità nord-occidentale della regione storica conosciuta come Lunigiana. Il centro si trova in una conca circondata da altorilievi collinari, ed è ubicato su uno dei più antichi percorsi che collegano la Val Padana con la Liguria e la Toscana, un tempo percorso della Via Francigena, ed ancor oggi tracciato di importanti infrastrutture viarie come l'Autostrada A15 e la linea ferroviaria Pontremolese, che collegano direttamente Parma con la Spezia. È diviso in centro storico e Verdeno, la zona abitata costruita in tempi successivi al di là del torrente Verde.</note>
+				</note>
+			</place>
+			<place xml:id="FOS" n="27" facs="pagina 1">
+				<placeName>
+					Fossoli
+				</placeName>,
+				<location>
+					<region key="Emilia-Romagna">
+						Emilia-Romagna
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						4°49'23″N 10°53'22″E
+					</geo>.
+				</location>
+				<population when="2018" type="interpolatedCensus" quantity="4416" href="https://it.wikipedia.org/wiki/Fossoli"/>
+				<note>
+				   <placeName n="query"> Fossoli</placeName>
+                    <note xml:id="internal"> è una frazione di circa 4 416 abitanti di Carpi. È situato a circa 26 km dal capoluogo provinciale. Nell'area di Fossoli sono presenti insediamenti abitativi a bassa e media densità, una vasta zona industriale e alcuni esercizi commerciali, localizzati soprattutto lungo la via principale intitolata a Ivano Martinelli. Sono presenti inoltre un ufficio postale e le scuole elementari "Leopoldo Gasparotto". Fuori dal centro abitato, a nord-est, è situata l'oasi naturalistica La Francesa, gestita dal WWF. 
+				        Durante la seconda guerra mondiale fu tristemente famoso per il suo campo di transito verso i lager nel quale furono di passaggio anche Primo Levi e Odoardo Focherini.
+				        Negli ultimi decenni, dopo l'edificazione di numerosi condomini ad ovest della tangenziale e di due quartieri residenziali denominati Parco Remesina e Il cielo del sole, la popolazione è decisamente aumentata, rendendo Fossoli la frazione più popolata del comune. Dopo il terremoto del 2012 sono stati rilevati danni ingenti ad edifici residenziali e al circolo ricreativo La Fontana. I danni dell'evento sismico non sono ormai più visibili, in quanto gli edifici danneggiati sono stati ristrutturati o demoliti e ricostruiti. </note>
+				</note>
+			</place>
+			<place xml:id="M" n="27" facs="pagina 1">
+				<placeName>
+					Modena
+				</placeName>,
+				<location>
+					<region key="Emilia-Romagna">
+						Emilia-Romagna
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						44°38'44.95″N 10°55'32.59″E
+					</geo>.
+				</location>
+				<population when="2022" type="interpolatedCensus" quantity="184281" href="https://it.wikipedia.org/wiki/Modena"/>
+				<note>
+				    <placeName n="query">Modena</placeName> <note xml:id="internal">si trova circa al centro della provincia di cui è capoluogo, nella Val Padana in un territorio completamente pianeggiante. Due fiumi la fiancheggiano senza peraltro attraversarla: la Secchia e il Panaro, la cui importanza per la città è testimoniata anche dalla presenza della Fontana dei due fiumi, dello scultore modenese Giuseppe Graziosi, situata in Largo Garibaldi. </note>
+				</note>
+			</place>
+			<place xml:id="LI" n="12" facs="pagina 2">
+				<placeName>
+					Linz
+				</placeName>,
+				<location>
+					<region key="Alta Austria">
+						Alta Austria
+					</region>,
+					<country key="AU">
+						Austria
+					</country>,
+					<geo>
+						48°18'21″N 14°17'11″E
+					</geo>.
+				</location>
+				<population when="2018" type="interpolatedCensus" quantity="204846" href="https://it.wikipedia.org/wiki/Linz"/>
+				<note>
+				    <placeName n="query"> Linz</placeName>
+                    <note xml:id="internal"> è la terza città austriaca per popolazione, capoluogo dello Stato federato dell'Alta Austria. 
+				    Durante la seconda guerra mondiale Linz è stata sede di tre sottocampi nazisti del vicino campo di concentramento di Mauthausen: denominati Linz I, Linz II e Linz III, erano adibiti a campi di lavoro forzato. Analogamente, anche a Steyr era presente un campo di prigionia. La vita in tali lager, così come in quelli di Ebensee, di Neu-Br/Saarbrücken e di Wiener Neudorf, è stata raccontata da Christian Bernadac nel libro I giorni senza fine. </note>
+				</note>
+			</place>
+			<place xml:id="KL" n="13" facs="pagina 2">
+				<placeName>
+					Klagenfurt am Wörthersee
+				</placeName>,
+				<location>
+					<region key="Carinzia">
+						Carinzia
+					</region>,
+					<country key="AU">
+						Austria
+					</country>,
+					<geo>
+						46°37'N 14°18'E
+					</geo>.
+				</location>
+				<population when="2018" type="interpolatedCensus" quantity="100316" href="https://it.wikipedia.org/wiki/Klagenfurt_am_W%C3%B6rthersee"/>
+				<note>
+				   <placeName n="query"> Klagenfurt </placeName> <note xml:id="internal">am Wörthersee è una città dell'Austria di 100 316 abitanti, capoluogo della Carinzia. </note>
+				</note>
+			</place>
+			<place xml:id="FIUME" n="29" facs="pagina 2">
+				<placeName>
+					Fiume Po
+				</placeName>,
+				<location>
+					<region key="Piemonte, Lombardia, Emilia-Romagna, Veneto">
+						Piemonte, Lombardia, Emilia-Romagna, Veneto
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						Nasce a 44°42'04″N 7°05'38″E
+					</geo>.
+				</location>
+				<population href="https://it.wikipedia.org/wiki/Po"/>
+				<note>
+				    Il <placeName n="query">Po</placeName>
+                    <note xml:id="internal"> è un fiume dell'Italia settentrionale. La sua lunghezza, 652 km, lo rende il più lungo fiume interamente compreso nel territorio italiano[5], quello con il bacino idrografico più esteso (circa 71 000 km²) e anche quello con la massima portata alla foce, sia essa minima (assoluta 270 m³/s), media (1 540 m³/s) o massima (13 000 m³/s), oltre ad essere il quinto fiume europeo (esclusa la Russia) per portata media (dopo: Danubio, Reno, Rodano e Nipro). </note>
+				</note>
+			</place>
+			<place xml:id="PES" n="31" facs="pagina 2">
+				<placeName>
+					Peschiera del Garda
+				</placeName>,
+				<location>
+					<region key="Veneto">
+						Veneto
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						45°26'19″N 10°41'19″E
+					</geo>.
+				</location>
+				<population when="2020" type="interpolatedCensus" quantity="10856" href="https://it.wikipedia.org/wiki/Peschiera_del_Garda"/>
+				<note>
+				    <placeName n="query">Peschiera del Garda</placeName> <note xml:id="internal">è un comune italiano di 10 856 abitanti della provincia di Verona in Veneto. È il comune più occidentale della regione. </note>
+				</note>
+			</place>
+			<place xml:id="MAN" n="31" facs="pagina 2">
+				<placeName>
+					Mantova
+				</placeName>,
+				<location>
+					<region key="Lombardia">
+						Lombardia
+					</region>,
+					<country key="IT">
+						Italia
+					</country>,
+					<geo>
+						5°09'23″N 10°47'28″E
+					</geo>.
+				</location>
+				<population when="2022" type="interpolatedCensus" quantity="48646" href="https://it.wikipedia.org/wiki/Mantova"/>
+				<note>
+				    <placeName n="query">Mantova</placeName>
+                    <note xml:id="internal"> si trova nella Lombardia sud-orientale, non lontano dal lago di Garda e dal confine con le regioni Veneto ed Emilia-Romagna.</note> 
+				</note>
+			</place>
+		</listPlace>
+		<list type="gloss">
+			<label>
+				<term ref="FUC" xml:lang="it">
+					Fucilazione
+				</term>
+				<item n="1">
+				<gloss target="#FUC" source="https://it.wikipedia.org/wiki/Fucilazione">
+					La fucilazione è un metodo di esecuzione capitale compiuto con armi da fuoco, in cui uno o più individui — definiti nella fattispecie plotone d'esecuzione — sparano al condannato provocandone la morte.
+					   Assimilabile per certi versi alla trafittura con frecce, la fucilazione è storicamente ricondotta a crimini commessi in tempo di guerra quali diserzione e tradimento: frequente era inoltre l'utilizzo di essa contro i prigionieri in campi di tortura e concentramento.La rapida morte dovuta alla raffica di proiettili contro il corpo ne ha talvolta costituito un'alternativa a metodi potenzialmente più cruenti e sofferenti per i condannati quali iniezione letale, camera a gas, impiccagione e sedia elettrica.
+					   Per sollevare i membri del plotone dalla responsabilità di un omicidio, una delle armi è solitamente caricata a salve anziché con munizioni reali; in caso di fucilazione compiuta da un singolo, lo sparo avviene invece contro la testa o un altro organo vitale del condannato al fine di assicurarne una morte veloce e potenzialmente indolore.
+				</gloss>
+			    </item>
+			</label>
+			<label>
+				<term ref="#RA" xml:lang="it">
+				    Rancio
+				</term>
+				<item n="1">
+				<gloss target="#RA" source="https://www.treccani.it/vocabolario/rancio3/">
+					Ognuno dei pasti principali che vengono distribuiti giornalmente ai soldati o ai prigionieri in tempo di guerra.
+				</gloss>
+			    </item>
+			</label>
+			<label>
+				<term ref="#SPA" xml:lang="it">
+				    Spaccio
+				</term>
+				<item n="1">
+				<gloss target="#SPA" source="https://www.treccani.it/vocabolario/spaccio/">
+					Negozio, o anche esercizio di rivendita al dettaglio, soprattutto presso comunità, collettività
+				</gloss>
+			    </item>
+			</label>
+			<label>
+				<term ref="#RAZ" xml:lang="it">
+				    Razione
+				</term>
+				<item n="1">
+				<gloss target="#RAZ" source="https://www.treccani.it/vocabolario/razione/">
+					Porzione di cibo o di altri generi che spetta volta per volta a persone o animali secondo quanto è stato stabilito
+				</gloss>
+			    </item>
+			</label>
+			<label>
+				<term ref="#SITE" xml:lang="it">
+				    Site
+				</term>
+				<item n="1">
+				<gloss target="#SITE" source="https://it.wikipedia.org/wiki/SITA_(trasporti)">
+					La SITA (sigla di Società Italiana Trasporti Automobilistici) fu una storica società del gruppo Fiat che per quasi cento anni caratterizzò il panorama italiano del trasporto pubblico locale. Passata al controllo delle Ferrovie dello Stato attraverso Sogin, società appartenente a tale gruppo, fu infine scissa in due realtà distinte.
+					La società SITA nacque a Torino, nel 1912, su iniziativa della Fiat e di altri azionisti.
+					Gli anni tra le due guerre videro la società radicarsi sul territorio, prima iniziando il suo servizio di trasporto in tre regioni (Piemonte, Toscana e Basilicata) per estendersi poi in tutta Italia. Durante gli anni del Fascismo, con la politica autarchica del regime, la Fiat indirizzò i capitali verso il trasporto su gomma e verso il turismo di massa: SITA rilevò allora alcune società di trasporto allargandosi al settore Gran Turismo.
+				</gloss>
+			    </item>
+			</label>
+		</list>
+		<listPerson type="real">
+			<person xml:id="TinaSorella">
+				<persName>
+					<forename>
+						Tina
+					</forename>
+					<surname type="birth">
+						Cimoli
+					</surname>
+				</persName>
+				<note>
+				    <persName n="query">Tina Cimoli</persName> <relation>è la sorella di Bruno Cimoli</relation>.
+				</note>
+			</person>
+			<person xml:id="CarlaCugina">
+				<persName>
+					<forename>
+						Carla
+					</forename>
+					<surname type="unknown"/>
+				</persName>
+				<note>
+				    <persName n="query">Carla</persName> <relation>è la cugina di Bruno Cimoli e figlia di <persName>Ida</persName>, non si conosce il cognome</relation>.
+				</note>
+			</person>
+			<person xml:id="IdaZia">
+				<persName>
+					<forename>
+						Ida
+					</forename>
+					<surname type="unknown"/>
+				</persName>
+				<note>
+				    <persName n="query">Ida</persName> <relation>è la zia di <persName>Brunco Cimoli</persName> e madre di <persName>Carla</persName>, il cognome è ignoto</relation>.
+				</note>
+			</person>
+			<person xml:id="RenzoFratello">
+				<persName>
+					<forename>
+						Renzo
+					</forename>
+					<surname type="birth">
+						Cimoli
+					</surname>
+				</persName>
+				<note>
+					<persName n="query">Renzo Cimoli</persName>
+                    <relation> è il fratello di <persName>Bruno Cimoli</persName>
+                    </relation>.
+				</note>
+			</person>
+			<person xml:id="Borghetti">
+				<persName>
+					<forename type="unknown"/>
+					<surname type="birth">
+						Borghetti
+					</surname>
+				</persName>
+				<note>
+					<persName n="query">Borghetti</persName>
+                    <relation> è stato uno degli amici di <persName>Bruno</persName> durante il viaggio verso la Germania</relation>.
+				</note>
+			</person>
+			<person xml:id="UmbertoZio">
+				<persName>
+					<forename>
+						Umberto
+					</forename>
+					<surname type="birth">
+						Beretta
+					</surname>
+				</persName>
+				<note>
+					<persName n="query">Umberto Beretta</persName> <relation>è lo zio di <persName>Bruno Cimoli</persName>, sposato con Maria (che non viene citata nel Diario), sorella della madre di Bruno. Umberto era barbiere presso la città di Avenza (MS). Inizialmente catturato ma poi rimandato a casa, probabilmente per la scarsa prestanza fisica che non avrebbe retto il peso del lavoro nei campi di concentramento</relation>.
+				</note>
+			</person>
+			<person xml:id="PasqualeAmico">
+				<persName>
+					<forename>
+						Pasquale
+					</forename>
+					<surname type="birth">
+						Forte
+					</surname>
+				</persName>
+				<note>
+				     <persName n="query">Pasquale Forte</persName>
+                    <relation> è amico di <persName>Bruno Cimoli</persName> durante il viaggio verso la Germania. Al tempo del racconto ha 34 anni, di Bacoli(NA), prima di essere catturato era sergente infermiere della Marina Militare in servizio negli ospedali di Marina di Massa. Bruno racconta di un ospedale in particolare che durante la guerra era stato sistemato in una costruzione chiamata "Colonia", che in origine serviva per fare alloggiare i figli dei fascisti (che dai 3 ai 6 anni "Figli della lupa" e dai 6 ai 12 "Balilla", dai 12 ai 16 "Balilla Moschettieri") durante le vacanze estive ed invernali</relation>.
+				</note>
+			</person>
+			<person xml:id="Bordoni">
+				<persName>
+					<forename type="unknow"/>
+					<surname type="birth">
+						Bordoni
+					</surname>
+				</persName>
+				<note>
+					<persName n="query"> Bordoni</persName>
+                    <relation> è un amico dello zio <persName>Umberto</persName>
+                    </relation>.
+				</note>
+			</person>
+		</listPerson>
+		<listBibl>
+			<head>
+				Il dattiloscritto
+			</head>
+			<biblStruct xml:id="DAT" xml:lang="it">
+				<monogr>
+					<author ref="#BC">
+						<persName>
+							<surname>
+								Cimoli
+							</surname>
+							<forename>
+								Bruno
+							</forename>
+						</persName>
+					</author>
+					<title type="main">
+						Stralcio sulla deportazione in Germania 1943-1945
+					</title>
+					<title type="sub">
+						Diario
+					</title>
+					<imprint>
+						<pubPlace>
+							Genova
+						</pubPlace>
+						<date when="1976">
+							1976
+						</date>
+					</imprint>
+				</monogr>
+			</biblStruct>
+		</listBibl>
+	</standOff>
+
+</TEI>
